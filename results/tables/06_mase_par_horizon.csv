@@ -1,0 +1,5 @@
+,Naïf saisonnier,SARIMA,Fourier + ARIMA,Gradient boosting
++1 sem.,1.0,0.305,0.273,0.278
++2 sem.,1.0,0.571,0.533,0.549
++3 sem.,1.0,0.764,0.749,0.761
++4 sem.,1.0,0.893,0.902,0.96

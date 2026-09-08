@@ -23,7 +23,7 @@ matplotlib==3.11.1
 seaborn==0.13.2
 
 # Démo interactive (portfolio)
-streamlit==1.38.0
+streamlit==1.56.0
 
 # Notebooks
 jupyterlab==4.6.3

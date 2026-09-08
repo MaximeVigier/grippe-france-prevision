@@ -18,7 +18,7 @@ et déterminer quel modèle vaut le coup. Basé sur les résultats du projet
 st.header("📅 Série temporelle complète (1990-2026)")
 complete_fig_path = "results/figures/02_serie_complete.png"
 if os.path.exists(complete_fig_path):
-    st.image(complete_fig_path, caption="Série nationale des syndromes grippaux – 1990 à 2026", use_column_width=True)
+    st.image(complete_fig_path, caption="Série nationale des syndromes grippaux – 1990 à 2026", use_container_width=True)
 else:
     st.warning("La figure de la série complète n'existe pas.")
     
@@ -31,7 +31,7 @@ if os.path.exists(mase_filepath):
 else:
     mase_fig_path = "results/figures/06_mase_par_horizon.png"
     if os.path.exists(mase_fig_path):
-        st.image(mase_fig_path, caption="MASE par horizon (backtest 2016-2024)", use_column_width=True)
+        st.image(mase_fig_path, caption="MASE par horizon (backtest 2016-2024)", use_container_width=True)
     else:
         st.warning("Aucune donnée MASE ni figure disponible.")
 
@@ -39,7 +39,7 @@ else:
 st.header("🔍 Saison 2020-2021 : l'effet COVID")
 covid_fig_path = "results/figures/06_focus_2020_2021.png"
 if os.path.exists(covid_fig_path):
-    st.image(covid_fig_path, caption="Saison 2020-2021 : la rupture de régime", use_column_width=True)
+    st.image(covid_fig_path, caption="Saison 2020-2021 : la rupture de régime", use_container_width=True)
 else:
     st.warning("La figure du focus COVID n'existe pas.")
 

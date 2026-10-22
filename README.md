@@ -8,8 +8,7 @@ métropolitaine** à partir de l'historique de surveillance du **réseau
 Sentinelles** (Inserm / Sorbonne Université), avec comparaison de modèles
 statistiques classiques, de machine learning et d'un modèle profond.
 
-> **À propos de ce projet.** Mon parcours (thèse en neurosciences, R&D en
-> sciences du vivant) me rend à l'aise avec les données biomédicales et leur
+> **À propos de ce projet.** Docteur en biotechnologie, j'ai l'habitude des données biomédicales et de leur
 > interprétation. Ce projet met en pratique la **prévision de série temporelle**
 > de bout en bout : exploration, saisonnalité, modélisation, et surtout
 > **évaluation honnête par backtest** — la partie que l'on néglige le plus
